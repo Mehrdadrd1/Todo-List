@@ -20,12 +20,11 @@ h1 {
 
 .headStyle {
   font-weight: 800;
-  color: lime;
+  color: blue;
 }
 
 .inputDiv {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -47,7 +46,7 @@ h1 {
   border-radius: 25px;
   outline: none;
   border: none;
-  background-color: lime;
+  background-color: blue;
   color: #fff;
   margin: 0.25rem;
   cursor: pointer;
@@ -79,4 +78,25 @@ h1 {
   border: none;
   width: 350px;
   font-size: 1.4rem;
+}
+
+.editButton {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  font-family: "Tilt Neon", sans-serif;
+  background: none;
+  outline: none;
+  color: blue;
+  border: none;
+  cursor: pointer;
+}
+
+.removeButton {
+  font-size: 1.4rem;
+  font-family: "Tilt Neon", sans-serif;
+  background: none;
+  outline: none;
+  color: #e00;
+  border: none;
+  cursor: pointer;
 }
